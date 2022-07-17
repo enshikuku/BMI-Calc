@@ -139,7 +139,7 @@ img, main h1 {
 }
 @media only screen and (max-width: 730px) {
     main {
-        width: 90%;
+        width: 94%;
         padding: 40px 20px;
         margin-left: auto;
         margin-right: auto;
@@ -161,6 +161,21 @@ img, main h1 {
         margin-top: 30px;
           
     }
+    .metric, .imperial {
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        width: 30%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        text-align: left;
+        background-color: rgb(211, 210, 210);
+    }
+    .metric:hover, .imperial:hover {
+        cursor: pointer;
+    }
     img, main h1 {
         font-size: 30px;
         height: 60px;
@@ -168,5 +183,52 @@ img, main h1 {
     }
     #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
         height: 35px;
+    }
+    #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
+        height: 30px;
+        font-size: 25px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .calculate-1 {
+        background-color: green;
+        width: 50%;
+        height: 40px;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .calculate-1:hover {
+        background-color: rgb(0, 163, 0);
+        cursor: pointer;
+        width: 50%;
+        height: 40px;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    .calculate {
+        background-color: green;
+        width: 50%;
+        height: 40px;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .calculate:hover {
+        background-color: rgb(0, 163, 0);
+        cursor: pointer;
+        width: 50%;
+        height: 40px;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-bottom: 10px; 
     }
 }
