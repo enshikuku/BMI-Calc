@@ -139,7 +139,7 @@ img, main h1 {
 }
 @media only screen and (max-width: 730px) {
     main {
-        width: 80%;
+        width: 90%;
         padding: 40px 20px;
         margin-left: auto;
         margin-right: auto;
