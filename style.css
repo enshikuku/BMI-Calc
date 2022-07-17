@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Italic-VariableFont_wght.ttf)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+main {
+    width: 80%;
+    padding: 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-1, .main-2 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: left;
+    margin-top: 30px;
+    border: 2px double green;
+    border-radius: 10px;
+    padding: 15px;  
+}
+
+img, main h1 {
+    font-size: 70px;
+    height: 60px;
+    color: green;
+}
+
+#result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
+    height: 35px;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.heightInput, .weightInput{
+    width: 70%;
+    height: 40px;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.calculate {
+    background-color: green;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.calculate:hover {
+    background-color: rgb(0, 163, 0);
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+.heightInput-1, .heightInput-1-1 {
+    width: 33%;
+    margin-right: 4%;
+    height: 40px;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.weightInput-1 {
+    width: 70%;
+    height: 40px;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.calculate-1 {
+    background-color: green;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.calculate-1:hover {
+    background-color: rgb(0, 163, 0);
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+.imperial-calculator {
+    display: none;
+}
+.metric, .imperial {
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    width: 25%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: rgb(211, 210, 210);
+}
+.metric:hover, .imperial:hover {
+    cursor: pointer;
+}
+@media only screen and (max-width: 730px) {
+    main {
+        width: 80%;
+        padding: 40px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }   
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-1, .main-2 {
+        display: flex;
+        flex-direction: column;
+        border: 2px double green;
+        border-radius: 10px;
+        padding: 15px;
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+          
+    }
+    img, main h1 {
+        font-size: 30px;
+        height: 60px;
+        color: green;
+    }
+    #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
+        height: 35px;
+    }
+}

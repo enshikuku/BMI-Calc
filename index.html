@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bmi.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <main>
+        <h1><img src="bmi.png" alt=""> CALCULATOR </h1>
+        <div class="main">
+            <div class="main-1">
+                <div class="tabs">
+                    <button class="metric">METRIC</button>
+                    <button class="imperial">IMPERIAL</button>
+                </div>
+                <div class="metric-calculator">
+                    <input class="heightInput" type="text" placeholder="Height (cm)"><br>
+                    <input class="weightInput" type="text" placeholder="Weight (kgs)"><br>
+                    <button class="calculate"> Calculate</button>
+                </div>
+                <div class="imperial-calculator">
+                    <input class="heightInput-1" type="text" placeholder="Feet"><input class="heightInput-1-1" type="text" placeholder="Inches"><br>
+                    <input class="weightInput-1" type="text" placeholder="Weight (lb)"><br>
+                    <button class="calculate-1"> Calculate</button>
+                </div>
+                <h3 class="result"></h3>
+            </div>
+            <div class="main-2">
+                <p id="result-statement-1">Underweight : < 18.5</p>
+                <p id="result-statement-2">Normalweight : 18.5 - 24.9</p>
+                <p id="result-statement-3">Overweight : 25 - 29.9</p> 
+                <p id="result-statement-4">Obesity : >= 30</p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
