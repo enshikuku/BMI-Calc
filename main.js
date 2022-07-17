@@ -1,15 +1,19 @@
+// Mertic Calculator
 let heightInput = document.querySelector('.heightInput') 
 let weightInput = document.querySelector('.weightInput') 
 let calculateButton = document.querySelector('.calculate')
+// Imperical calculator
 let heightFeet = document.querySelector('.heightInput-1')
 let heightInches = document.querySelector('.heightInput-1-1') 
 let weightImperial = document.querySelector('.weightInput-1') 
 let calculateBtn = document.querySelector('.calculate-1') 
-let result = document.querySelector('.result')
+//  Switch tabs
 let metricbtn = document.querySelector('.metric')
 let imperialbtn = document.querySelector('.imperial')
 let metCalc = document.querySelector('.metric-calculator')
 let impCalc = document.querySelector('.imperial-calculator')
+// Result Section
+let result = document.querySelector('.result')
 let statement1 = document.querySelector('#result-statement-1')
 let statement2 = document.querySelector('#result-statement-2')
 let statement3 = document.querySelector('#result-statement-3')
