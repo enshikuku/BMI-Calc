@@ -148,7 +148,7 @@ img, main h1 {
 }
 @media only screen and (max-width: 730px) {
     main {
-        width: 94%;
+        width: 98%;
         padding: 40px 20px;
         margin-left: auto;
         margin-right: auto;
@@ -193,7 +193,7 @@ img, main h1 {
     }
     #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
         height: 30px;
-        font-size: 25px;
+        font-size: 16px;
         border-radius: 5px;
         padding: 5px;
         margin-bottom: 10px;
