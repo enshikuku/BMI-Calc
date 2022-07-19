@@ -44,6 +44,7 @@ img, main h1 {
     height: 35px;
     font-size: 35px;
     border-radius: 5px;
+    padding: 5px;
     margin-bottom: 10px;
     text-align: left;
     font-size: 20px;
@@ -54,6 +55,7 @@ img, main h1 {
     height: 40px;
     font-size: 35px;
     border-radius: 5px;
+    padding: 5px;
     margin-bottom: 10px;
     text-align: left;
     font-size: 20px;
@@ -64,6 +66,7 @@ img, main h1 {
     width: 50%;
     height: 40px;
     text-align: left;
+    padding: 5px;
     font-size: 30px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -75,6 +78,7 @@ img, main h1 {
     width: 50%;
     height: 40px;
     text-align: left;
+    padding: 5px;
     font-size: 30px;
     border-radius: 5px;
     margin-bottom: 10px; 
@@ -85,6 +89,7 @@ img, main h1 {
     height: 40px;
     font-size: 35px;
     border-radius: 5px;
+    padding: 5px;
     margin-bottom: 10px;
     text-align: left;
     font-size: 20px;
@@ -95,6 +100,7 @@ img, main h1 {
     font-size: 35px;
     border-radius: 5px;
     margin-bottom: 10px;
+    padding: 5px;
     text-align: left;
     font-size: 20px;
 }
@@ -104,6 +110,7 @@ img, main h1 {
     width: 50%;
     height: 40px;
     text-align: left;
+    padding: 5px;
     font-size: 30px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -115,6 +122,7 @@ img, main h1 {
     width: 50%;
     height: 40px;
     text-align: left;
+    padding: 5px;
     font-size: 30px;
     border-radius: 5px;
     margin-bottom: 10px; 
@@ -127,6 +135,7 @@ img, main h1 {
     font-size: 15px;
     font-weight: bold;
     border: none;
+    padding: 5px;
     width: 25%;
     margin-right: 5%;
     margin-bottom: 10px;
@@ -164,6 +173,7 @@ img, main h1 {
     .metric, .imperial {
         height: 30px;
         font-size: 15px;
+        padding: 5px;
         font-weight: bold;
         border: none;
         width: 30%;
@@ -182,12 +192,10 @@ img, main h1 {
         color: green;
     }
     #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
-        height: 35px;
-    }
-    #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
         height: 30px;
         font-size: 25px;
         border-radius: 5px;
+        padding: 5px;
         margin-bottom: 10px;
         text-align: left;
         font-size: 20px;
@@ -197,6 +205,7 @@ img, main h1 {
         width: 50%;
         height: 40px;
         text-align: left;
+        padding: 5px;
         font-size: 20px;
         border-radius: 5px;
         margin-bottom: 10px;
@@ -207,6 +216,7 @@ img, main h1 {
         cursor: pointer;
         width: 50%;
         height: 40px;
+        padding: 5px;
         text-align: left;
         font-size: 20px;
         border-radius: 5px;
@@ -216,6 +226,7 @@ img, main h1 {
         background-color: green;
         width: 50%;
         height: 40px;
+        padding: 5px;
         text-align: left;
         font-size: 20px;
         border-radius: 5px;
@@ -226,6 +237,7 @@ img, main h1 {
         cursor: pointer;
         width: 50%;
         height: 40px;
+        padding: 5px;
         text-align: left;
         font-size: 20px;
         border-radius: 5px;

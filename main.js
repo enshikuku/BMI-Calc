@@ -18,6 +18,7 @@ let statement1 = document.querySelector('#result-statement-1')
 let statement2 = document.querySelector('#result-statement-2')
 let statement3 = document.querySelector('#result-statement-3')
 let statement4 = document.querySelector('#result-statement-4')
+
 let BMI, height, weight 
 
 calculateButton.addEventListener('click', ()=>{
@@ -25,7 +26,7 @@ calculateButton.addEventListener('click', ()=>{
     height = heightInput.value/100 
     weight = weightInput.value 
     BMI = weight/(height**2)
-    result.innerText = BMI.toFixed(1)
+    result.innerText = `Your BMI is ${BMI.toFixed(1)}`
     
     statement1.style.backgroundColor = 'white'
     statement2.style.backgroundColor = 'white'
@@ -46,7 +47,7 @@ calculateBtn.addEventListener('click', ()=>{
     height = impHeight / 100
     weight = weightImperial.value * 0.453592
     BMI = weight/(height**2)
-    result.innerText = height
+    result.innerText = `Your BMI is ${BMI.toFixed(1)}`
     
     
     statement1.style.backgroundColor = 'white'
@@ -70,10 +71,25 @@ metricbtn.addEventListener('click', ()=>{
     imperialbtn.style.backgroundColor = 'rgb(211, 210, 210)'
     metCalc.style.display = 'block'
     impCalc.style.display = 'none'
+    statement1.style.backgroundColor = 'white'
+    statement2.style.backgroundColor = 'white'
+    statement3.style.backgroundColor = 'white'
+    statement4.style.backgroundColor = 'white'
+    result.innerText = ''
+    heightFeet.value = ''
+    heightInches.value = ''
+    weightImperial.value = ''
 })
 imperialbtn.addEventListener('click', ()=>{
     metricbtn.style.backgroundColor = 'rgb(211, 210, 210)'
     imperialbtn.style.backgroundColor = 'lightgreen'
     metCalc.style.display = 'none'
     impCalc.style.display = 'block'
+    statement1.style.backgroundColor = 'white'
+    statement2.style.backgroundColor = 'white'
+    statement3.style.backgroundColor = 'white'
+    statement4.style.backgroundColor = 'white'
+    heightInput.value = ''
+    weightInput.value = ''
+    result.innerText = ''
 })
