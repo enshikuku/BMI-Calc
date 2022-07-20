@@ -40,7 +40,7 @@ img, main h1 {
     color: green;
 }
 
-#result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
+.result-statement {
     height: 35px;
     font-size: 35px;
     border-radius: 5px;
@@ -191,7 +191,7 @@ img, main h1 {
         height: 60px;
         color: green;
     }
-    #result-statement-1, #result-statement-2, #result-statement-3, #result-statement-4 {
+    .result-statement {
         height: 30px;
         font-size: 16px;
         border-radius: 5px;

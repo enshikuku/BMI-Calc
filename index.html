@@ -17,23 +17,25 @@
                     <button class="metric">METRIC</button>
                     <button class="imperial">IMPERIAL</button>
                 </div>
-                <div class="metric-calculator">
-                    <input class="heightInput" type="text" placeholder="Height (cm)"><br>
-                    <input class="weightInput" type="text" placeholder="Weight (kgs)"><br>
-                    <button class="calculate"> Calculate</button>
-                </div>
-                <div class="imperial-calculator">
-                    <input class="heightInput-1" type="text" placeholder="Feet"><input class="heightInput-1-1" type="text" placeholder="Inches"><br>
-                    <input class="weightInput-1" type="text" placeholder="Weight (lb)"><br>
-                    <button class="calculate-1"> Calculate</button>
-                </div>
+                <form action="" class="metric-calculator">
+                    <input class="heightInput" type="number" placeholder="Height (cm)" minlength="1" maxlength="5"><br>
+                    <input class="weightInput" type="number" placeholder="Weight (kgs)" minlength="1" maxlength="5"><br>
+                    <!-- <button type="submit" class="calculate">Calculate</button> -->
+                    <input type="submit" value="Calculate" class="calculate">
+                </form>
+                <form action="" class="imperial-calculator">
+                    <input class="heightInput-1" type="number" placeholder="Feet" minlength="1" maxlength="5"><input class="heightInput-1-1" type="number" placeholder="Inches" minlength="1" maxlength="5"><br>
+                    <input class="weightInput-1" type="number" placeholder="Weight (lb)" minlength="1" maxlength="5"><br>
+                    <!-- <button type="submit" class="calculate-1">Calculate</button> -->
+                    <input type="submit" value="Calculate" class="calculate-1">
+                </form>
                 <h3 class="result"></h3>
             </div>
             <div class="main-2">
-                <p id="result-statement-1">Underweight : < 18.5</p>
-                <p id="result-statement-2">Normalweight : 18.5 - 24.9</p>
-                <p id="result-statement-3">Overweight : 25 - 29.9</p> 
-                <p id="result-statement-4">Obesity : >= 30</p>
+                <p class="result-statement">Underweight : < 18.5</p>
+                <p class="result-statement">Normalweight : 18.5 - 24.9</p>
+                <p class="result-statement">Overweight : 25 - 29.9</p> 
+                <p class="result-statement">Obesity : >= 30</p>
             </div>
         </div>
     </main>
