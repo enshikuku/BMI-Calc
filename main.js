@@ -16,7 +16,7 @@ let impCalc = document.querySelector('.imperial-calculator')
 let result = document.querySelector('.result')
 let statements = document.querySelectorAll('.result-statement')
 
-let BMI, height, weight 
+let BMI, height, weight
 
 metCalc.addEventListener('submit', (e)=>{
     e.preventDefault()
