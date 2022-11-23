@@ -51,7 +51,7 @@ img, main h1 {
 }
 
 .heightInput, .weightInput{
-    width: 70%;
+    width: 80%;
     height: 40px;
     font-size: 35px;
     border-radius: 5px;
@@ -61,9 +61,9 @@ img, main h1 {
     font-size: 20px;
 }
 
-.calculate {
+.calculate, .calculate-1 {
     background-color: green;
-    width: 50%;
+    width: fit-content;
     height: 40px;
     text-align: left;
     padding: 5px;
@@ -72,19 +72,12 @@ img, main h1 {
     margin-bottom: 10px;
 }
 
-.calculate:hover {
+.calculate:hover, .calculate-1:hover {
     background-color: rgb(0, 163, 0);
     cursor: pointer;
-    width: 50%;
-    height: 40px;
-    text-align: left;
-    padding: 5px;
-    font-size: 30px;
-    border-radius: 5px;
-    margin-bottom: 10px; 
 }
 .heightInput-1, .heightInput-1-1 {
-    width: 33%;
+    width: 40%;
     margin-right: 4%;
     height: 40px;
     font-size: 35px;
@@ -95,7 +88,7 @@ img, main h1 {
     font-size: 20px;
 }
 .weightInput-1 {
-    width: 70%;
+    width: 85%;
     height: 40px;
     font-size: 35px;
     border-radius: 5px;
@@ -103,29 +96,6 @@ img, main h1 {
     padding: 5px;
     text-align: left;
     font-size: 20px;
-}
-
-.calculate-1 {
-    background-color: green;
-    width: 50%;
-    height: 40px;
-    text-align: left;
-    padding: 5px;
-    font-size: 30px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.calculate-1:hover {
-    background-color: rgb(0, 163, 0);
-    cursor: pointer;
-    width: 50%;
-    height: 40px;
-    text-align: left;
-    padding: 5px;
-    font-size: 30px;
-    border-radius: 5px;
-    margin-bottom: 10px; 
 }
 .imperial-calculator {
     display: none;
@@ -136,7 +106,7 @@ img, main h1 {
     font-weight: bold;
     border: none;
     padding: 5px;
-    width: 25%;
+    width: fit-content;
     margin-right: 5%;
     margin-bottom: 10px;
     border-radius: 5px;
