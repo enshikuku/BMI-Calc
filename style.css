@@ -34,12 +34,14 @@ main {
     border-radius: 10px;
     padding: 15px;  
 }
-
-img, main h1 {
-    font-size: 70px;
-    height: 60px;
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
     color: green;
-    text-align: center;
+    font-size: 60px;
 }
 
 .result-statement {
@@ -124,8 +126,5 @@ img, main h1 {
     }
     .main-1, .main-2 {
         width: 100%;      
-    }
-    img, main h1 {
-        font-size: 32px;
     }
 }
