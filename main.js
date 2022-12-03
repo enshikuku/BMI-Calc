@@ -1,3 +1,5 @@
+// preloader 
+const load = document.querySelector(".loader")
 // Mertic Calculator
 let heightInput = document.querySelector('.heightInput') 
 let weightInput = document.querySelector('.weightInput') 
@@ -18,6 +20,9 @@ let statements = document.querySelectorAll('.result-statement')
 
 let BMI, height, weight
 
+window.addEventListener("load", function(){
+    load.style.display = 'none'
+})
 metCalc.addEventListener('submit', (e)=>{
     e.preventDefault()
     height = Number(heightInput.value) / 100 
