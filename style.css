@@ -12,7 +12,7 @@
 
 main {
     width: 80%;
-    padding: 40px 20px;
+    padding: 8px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -29,7 +29,7 @@ main {
     flex-direction: column;
     width: 48%;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
     border: 2px double green;
     border-radius: 10px;
     padding: 15px;  
@@ -38,10 +38,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
+    margin:  0 auto;
 }
-h1 {
-    color: green;
-    font-size: 60px;
+#header img {
+    width: 100%;
 }
 
 .result-statement {
@@ -67,17 +68,20 @@ h1 {
 
 .calculate, .calculate-1 {
     background-color: green;
-    width: fit-content;
-    height: 40px;
     text-align: left;
-    padding: 5px;
-    font-size: 30px;
-    border-radius: 5px;
+    font-size: 22px;
+    border-radius: 38px;
     margin-bottom: 10px;
+    padding: 1px 12px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid green;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .calculate:hover, .calculate-1:hover {
-    background-color: rgb(0, 163, 0);
+    background-color: #009600;
     cursor: pointer;
 }
 .heightInput-1, .heightInput-1-1 {
@@ -105,26 +109,54 @@ h1 {
     display: none;
 }
 .metric, .imperial {
-    height: 30px;
+    height: fit-content;
     font-size: 15px;
     font-weight: bold;
     border: none;
-    padding: 5px;
+    padding: 3px 9px;
     width: fit-content;
+    letter-spacing: 2px;
     margin-right: 5%;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: left;
     background-color: rgb(211, 210, 210);
 }
 .metric:hover, .imperial:hover {
     cursor: pointer;
 }
+/* preloader */
+.loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.spinner{
+    width: 80px;
+    height: 80px;
+    border: 7px solid #008000;
+    border-radius: 50%;
+    border-top: 7px solid red;
+    border-bottom: 7px solid red;
+    animation: spin .8s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }    
+}
 @media only screen and (max-width: 730px) {
     main {
         width: 98%;
     }
-    .main-1, .main-2 {
+    .main-1, .main-2, #header {
         width: 100%;      
     }
 }
